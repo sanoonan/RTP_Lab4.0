@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTP_Lab4.0", "RTP_Lab4.0\RTP_Lab4.0.vcxproj", "{D31DDAF3-7534-4140-A515-493386AF1F33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D31DDAF3-7534-4140-A515-493386AF1F33}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D31DDAF3-7534-4140-A515-493386AF1F33}.Debug|Win32.Build.0 = Debug|Win32
+		{D31DDAF3-7534-4140-A515-493386AF1F33}.Release|Win32.ActiveCfg = Release|Win32
+		{D31DDAF3-7534-4140-A515-493386AF1F33}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

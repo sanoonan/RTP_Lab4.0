@@ -1,0 +1,79 @@
+﻿Build started 13/02/2015 20:13:32.
+     1>Project "C:\VS Projects\RTP_Lab4.0\RTP_Lab4.0\RTP_Lab4.0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\VS Projects\RTP_Lab4.0\RTP_Lab4.0\glew-1.10.0\include" /I"C:\VS Projects\RTP_Lab4.0\RTP_Lab4.0\freeglut\include" /I"C:\VS Projects\RTP_Lab4.0\RTP_Lab4.0\assimp\include" /I"C:\VS Projects\RTP_Lab4.0\RTP_Lab4.0\AntTweakBar\AntTweakBar\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Files\AABB.cpp Files\BoundingSphere.cpp Files\Camera.cpp Files\CollisionPair.cpp Files\Effector.cpp Files\main.cpp Files\Mesh.cpp Files\RigidBody.cpp Files\RigidBodyManager.cpp Files\Shaders.cpp
+         AABB.cpp
+         BoundingSphere.cpp
+         Camera.cpp
+         CollisionPair.cpp
+         Effector.cpp
+         main.cpp
+     1>Files\main.cpp(259): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\main.cpp(262): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\main.cpp(368): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Files\main.cpp(386): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         Mesh.cpp
+     1>Files\Mesh.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\Mesh.cpp(206): warning C4018: '<' : signed/unsigned mismatch
+         RigidBody.cpp
+     1>Files\RigidBody.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBody.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBody.cpp(350): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBody.cpp(492): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBody.cpp(495): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBody.cpp(529): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBody.cpp(522): warning C4101: 'height' : unreferenced local variable
+     1>Files\RigidBody.cpp(522): warning C4101: 'width' : unreferenced local variable
+     1>Files\RigidBody.cpp(522): warning C4101: 'depth' : unreferenced local variable
+     1>Files\RigidBody.cpp(577): warning C4018: '<' : signed/unsigned mismatch
+         RigidBodyManager.cpp
+     1>Files\RigidBodyManager.cpp(371): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(380): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(449): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(470): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(476): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(501): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(502): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(536): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(584): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(585): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(586): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(771): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(841): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(856): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(875): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(876): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(878): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(950): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(988): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(997): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(1028): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(1029): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(1030): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(1049): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(1219): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(1236): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(1247): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(1350): warning C4018: '<' : signed/unsigned mismatch
+     1>Files\RigidBodyManager.cpp(1409): warning C4018: '<' : signed/unsigned mismatch
+         Shaders.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\VS Projects\RTP_Lab4.0\Release\RTP_Lab4.0.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\VS Projects\RTP_Lab4.0\RTP_Lab4.0\glew-1.10.0\lib\Release\Win32" /LIBPATH:"C:\VS Projects\RTP_Lab4.0\RTP_Lab4.0\freeglut\lib" /LIBPATH:"C:\VS Projects\RTP_Lab4.0\RTP_Lab4.0\assimp\lib\Release" /LIBPATH:"C:\VS Projects\RTP_Lab4.0\RTP_Lab4.0\AntTweakBar\AntTweakBar\lib" assimp.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\VS Projects\RTP_Lab4.0\Release\RTP_Lab4.0.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\VS Projects\RTP_Lab4.0\Release\RTP_Lab4.0.lib" /MACHINE:X86 /SAFESEH Release\AABB.obj
+         Release\BoundingSphere.obj
+         Release\Camera.obj
+         Release\CollisionPair.obj
+         Release\Effector.obj
+         Release\main.obj
+         Release\Mesh.obj
+         Release\RigidBody.obj
+         Release\RigidBodyManager.obj
+         Release\Shaders.obj
+         Generating code
+         Finished generating code
+         RTP_Lab4.0.vcxproj -> C:\VS Projects\RTP_Lab4.0\Release\RTP_Lab4.0.exe
+     1>Done Building Project "C:\VS Projects\RTP_Lab4.0\RTP_Lab4.0\RTP_Lab4.0.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.67
